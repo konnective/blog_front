@@ -1,0 +1,47 @@
+.singlepost{
+    display: flex;
+     
+    .content_area{
+        flex: 6;
+        background-color: #ffee88;
+        text-align: center;
+        // display: flex;
+        gap: 20px;
+        .spinner{
+           
+            background-color: rgba(255, 255, 255, 0.7);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+          
+       .content{
+        display: flex;
+        justify-content: center;
+        // max-width: 50rem;
+        padding: 2rem 5rem;
+        gap:2rem;
+        .code{
+            flex: 2;
+            img{  
+                width: 100%;
+                max-height: 500px;
+                object-fit:contain;
+            }
+        }
+        .desc{
+            flex: 3;
+            background-color: #880044;
+            color: aliceblue;
+            .title{
+                margin:20px 0px 0px 0px;
+            }
+            .info{
+                margin: 20px 0px;
+                padding: 0px 20px;
+            }
+            
+        }
+       }
+    }
+}

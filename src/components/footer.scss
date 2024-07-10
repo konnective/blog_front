@@ -1,0 +1,37 @@
+.footer {
+    max-width: 1050px;
+    margin: 50px 0px 0px 0px;
+    display: flex;
+    // align-items: center;
+    justify-content: center;
+    gap: 150px;
+
+    .ft-title {
+        font-size: 25px;
+        font-weight: 600;
+    }
+
+    ul {
+        li {
+            margin: 20px 0px;
+            color: #969696;
+            list-style-type: none;
+        }
+    }
+
+
+
+
+
+
+    $medium: 1400px;
+    $small: 900px;
+
+    @media screen and (max-width: $medium) {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+
+
+}

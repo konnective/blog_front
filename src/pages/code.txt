@@ -1,0 +1,4 @@
+      {/* <div className="small-details">
+        <div className="author">The Gurdian</div>
+        <div className="save">save</div>
+      </div> */}

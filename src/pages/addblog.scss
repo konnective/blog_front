@@ -1,0 +1,59 @@
+.add_blog{
+    display: flex;
+    .add_container{
+        flex: 6;
+        background-color: #ffee88;
+        // margin: autos;
+        
+        .editor{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            .btn{
+                padding: 10px 20px;
+                background-color: teal;
+                border: none;
+                color: white;
+                &:hover{
+                    background-color: rgb(15, 46, 46);
+                }
+            }
+            .title_input{
+                margin: 15px 0px;
+            }
+            .img_input{
+                margin: 15px 0px;
+                .file_name{
+                    margin: 0px 10px 0px 0px;
+                }
+                .file{
+                    padding: 10px 20px;
+                    background-color: teal;
+                    color: white;
+                    &:hover{
+                        background-color: rgb(15, 46, 46);
+                    }
+                }
+                .input_small{
+                    margin: 0px 0px 0px 10px;
+                    padding: 10px 20px;
+                }
+            }
+            
+            // background-color: #963333;
+            .title_input{
+                input{
+                    padding: 10px;
+                    width: 50rem;
+                }
+            }
+            .desc_input{
+                // height: 35rem;
+                margin: 15px 0px 0px 0px;
+                background-color: white;
+            }
+        }
+        
+    }
+}
